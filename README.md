@@ -107,4 +107,7 @@ Commands to start the application
     
 mvn spring-boot:run
 
-
+# Running Tests 
+    
+Created a sample junit test the set up will be done automatically only prerequisite is to have a local mongo running 
+Test class ItemControllerTest.java
