@@ -89,3 +89,22 @@ Sample Response :
     "data": "60d7f6ee22fafe7f769ac10b",
     "status": "OK"
 }
+
+
+#Basic commands for the service abnd changes to property file 
+
+The service uses some properties including the connection string properties for Mongo 
+
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=4001
+spring.data.mongodb.database=items
+
+and an additional property 
+
+minimum.price = <Minimum price>
+    
+Commands to start the application 
+    
+mvn spring-boot:run
+
+
