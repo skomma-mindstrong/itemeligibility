@@ -91,7 +91,7 @@ Sample Response :
 }
 
 
-#Basic commands for the service abnd changes to property file 
+# Basic commands for the service abnd changes to property file 
 
 The service uses some properties including the connection string properties for Mongo 
 
